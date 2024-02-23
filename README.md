@@ -1,13 +1,13 @@
 <h2>Exercise 3: HTTP Form-Based Authentication and DNS</h2>
 
 <h3>Objectives</h3>
-- ...
+- Develop and implement a Wireshark capture filter to target HTTP traffic on port 80.
 <br />
-- ...
+- Analyze differences in HTTP traffic encodings to assess authentication security.
 <br />
-- ...
+- Evaluate the encryption status of DNS traffic captured on port 53 for potential vulnerabilities.
 <br />
-- ...
+- Explore strategies to mitigate risks associated with unencrypted DNS traffic and enhance overall network security.
 
 <h3>Step 1: Configuring Wireshark Capture Filter and Generating HTTP Traffic</h3>
 I configured Wireshark to capture traffic specifically from HTTP by setting the capture filter to port 80. Next, I navigated to an insecure HTTP website named 'testing-ground' and proceeded to input a username and password in order to generate traffic.
