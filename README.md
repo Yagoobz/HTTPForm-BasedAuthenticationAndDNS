@@ -19,7 +19,7 @@ Unlike the last http traffic I captured in Wireshark from the previous lab that 
 <br />
 <img src="https://github.com/Yagoobz/HTTPForm-BasedAuthenticationAndDNS/assets/145611184/cb5281e3-fcd5-42a7-9e12-dae7333114e4" height="30%" width="70%" alt="Disk Sanitization Steps"/>
 
-<h3>Step 3: ...</h3>
-...
+<h3>Step 3: Capturing DNS Traffic and Analyzing Encryption</h3>
+Now, I'm focusing on capturing DNS traffic. I configured Wireshark's capture filter to port 53 and proceeded to open the Windows Command Prompt. From there, I pinged a website. Upon analysis, it became evident that the DNS traffic is unencrypted, as I could clearly observe the application data and identify the server the virtual machine I'm using needs to resolve the IP for. Had the traffic been encrypted, such detailed information would not have been visible.
 <br />
 <img src="..." height="30%" width="70%" alt="Disk Sanitization Steps"/>
