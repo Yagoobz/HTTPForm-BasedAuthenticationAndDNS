@@ -1,4 +1,4 @@
-<h2>Exercise 3: HTTP Form-Based Authentication and DNS</h2>
+<h2>HTTP Form-Based Authentication and DNS</h2>
 
 <h3>Objectives</h3>
 - Develop and implement a Wireshark capture filter to target HTTP traffic on port 80.
